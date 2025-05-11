@@ -42,15 +42,25 @@
 
 @media (max-width: 768px) {
   .search-sort-container {
-    flex-direction: column; /* Los elementos estarán en columna en pantallas pequeñas */
+    flex-direction: column;
+    gap: 1rem;
+    height: 15vh; /* o lo que prefieras */
   }
 
-  .search-sort-container input {
-    flex: 0 0 100%; /* El input ocupa todo el ancho en pantallas pequeñas */
-    margin-bottom: 1rem; /* Separación entre input y botón */
-  }
-
+  .search-sort-container input,
   .search-sort-container button {
-    flex: 0 0 100%; /* El botón ocupa todo el ancho en pantallas pequeñas */
+    flex: 1;
+    width: 100%;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
   }
 }
+
+
+
+
+
+
+
