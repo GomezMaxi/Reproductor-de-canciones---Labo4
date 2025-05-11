@@ -3,7 +3,7 @@ body {
   background-image: url('./assets/IMG/background-img.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Efecto parallax */
+  background-attachment: fixed; 
   color: #4a3f35;
   margin: 0;
   padding: 0;

@@ -33,7 +33,7 @@
   max-width: 800px;
   width: 90%;
   position: relative;
-  animation: fadeIn 0.5s ease-out; /* Suavizamos la animación */
+  animation: fadeIn 0.5s ease-out; 
 }
 
 /* Iframe */
@@ -47,7 +47,7 @@
 /* Cerrar */
 .modal button {
   display: block;
-  margin: 1.5rem auto 0 auto; /* Auto en los costados para centrar */
+  margin: 1.5rem auto 0 auto; 
   background-color: #8c735b;
   color: white;
   border: none;

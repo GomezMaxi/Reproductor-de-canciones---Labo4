@@ -2,25 +2,25 @@
 
 /* Estilo general para el formulario */
 .form-container {
-  background-color: #f6f1eb; /* Fondo suave beige */
+  background-color: #f6f1eb; 
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 700px; /* Cambié el max-width para igualarlo al de .search-sort-container */
+  max-width: 700px; 
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   justify-content: center;
-  align-items: center; /* Asegura que los elementos se centren */
+  align-items: center; 
   box-sizing: border-box;
 }
 
 /* Título */
 h2 {
   font-size: 1.5rem;
-  color: #4a3f35; /* Marrón oscuro */
+  color: #4a3f35; 
   font-weight: bold;
   text-align: center;
 }
@@ -36,7 +36,7 @@ input[type="number"] {
   color: #4a3f35;
   margin-bottom: 1rem;
   transition: border-color 0.3s ease;
-  width: 100%; /* Los inputs de texto y número ocupan el 100% del contenedor */
+  width: 100%; 
 }
 
 input[type="text"]:focus,
@@ -48,19 +48,19 @@ input[type="number"]:focus {
 /* Estilo para los botones */
 button[type="submit"] {
   all: unset;
-  background-color: #d7c8b9; /* Beige suave */
-  color: #4a3f35; /* Marrón oscuro */
+  background-color: #d7c8b9; 
+  color: #4a3f35; 
   padding: 0.75rem 1rem;
   border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.3s, transform 0.2s;
-  border: 1px solid #8c735b; /* Agregar un borde delgado */
-  width: auto; /* El botón no ocupará todo el ancho, solo el necesario */
-  max-width: 300px; /* Ancho máximo para el botón */
-  margin: 0 auto; /* Centra el botón */
-  display: block; /* Asegura que el botón esté en bloque */
+  border: 1px solid #8c735b; 
+  width: auto;
+  max-width: 300px; 
+  margin: 0 auto;
+  display: block;
 }
 
 button[type="submit"]:hover {
@@ -83,7 +83,7 @@ select {
   border-radius: 0.75rem;
   background-color: #f6f1eb;
   color: #4a3f35;
-  width: 100%; /* Asegura que el select ocupe todo el ancho disponible */
+  width: 100%; 
 }
 
 /* Estilo para las etiquetas */
@@ -96,7 +96,7 @@ label {
 
 /* Estilo para los elementos de texto de error */
 .error {
-  color: #d9534f; /* Rojo para los errores */
+  color: #d9534f; 
   font-size: 0.9rem;
   margin-top: 0.5rem;
 }

@@ -26,9 +26,9 @@ li {
   text-align: center;
 }
 li:hover {
-  background-color: #e1d1b8; /* Color de fondo más oscuro al pasar el mouse */
-  transform: translateY(-5px); /* Sutil movimiento hacia arriba */
-  box-shadow: 0 6px 18px rgba(74, 63, 53, 0.2); /* Sombra más pronunciada */
+  background-color: #e1d1b8; 
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 18px rgba(74, 63, 53, 0.2);
 }
 
 li h3 {
@@ -54,7 +54,7 @@ li button {
 li button:hover {
   background-color: #8c735b;
   color: white;
-  transform: translateY(-3px); /* Sutil movimiento hacia arriba */
+  transform: translateY(-3px); 
 }
 
 .song-list {
@@ -62,7 +62,7 @@ li button:hover {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Esto centra el contenido */
+  align-items: center;
 }
 
 /* Scroll */
@@ -70,8 +70,8 @@ li button:hover {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  max-height: 1200px; /* Ajusta este valor según el tamaño que desees */
-  overflow-y: auto;   /* Activa el scroll cuando sea necesario */
+  max-height: 1200px; 
+  overflow-y: auto;   
 }
 
 .song-list ul::-webkit-scrollbar {
