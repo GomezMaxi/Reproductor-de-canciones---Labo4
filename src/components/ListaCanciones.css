@@ -1,0 +1,88 @@
+h2 {
+  text-align: center;
+  margin: 2rem 0 1rem;
+  color: #4a3f35;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  background-color: #f3e9dd;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 2px 6px rgba(74, 63, 53, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+}
+li:hover {
+  background-color: #e1d1b8; /* Color de fondo más oscuro al pasar el mouse */
+  transform: translateY(-5px); /* Sutil movimiento hacia arriba */
+  box-shadow: 0 6px 18px rgba(74, 63, 53, 0.2); /* Sombra más pronunciada */
+}
+
+li h3 {
+  margin: 0;
+  color: #4a3f35;
+}
+
+li p {
+  margin: 0.25rem 0;
+  color: #6d5c4a;
+}
+
+li button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #8c735b;
+  background-color: transparent;
+  color: #8c735b;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s;
+}
+
+li button:hover {
+  background-color: #8c735b;
+  color: white;
+  transform: translateY(-3px); /* Sutil movimiento hacia arriba */
+}
+
+.song-list {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Esto centra el contenido */
+}
+
+/* Scroll */
+.song-list ul {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  max-height: 1200px; /* Ajusta este valor según el tamaño que desees */
+  overflow-y: auto;   /* Activa el scroll cuando sea necesario */
+}
+
+.song-list ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.song-list ul::-webkit-scrollbar-track {
+  background: #f3e9dd;
+}
+
+.song-list ul::-webkit-scrollbar-thumb {
+  background-color: #8c735b;
+  border-radius: 4px;
+}
